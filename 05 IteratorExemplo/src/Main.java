@@ -21,7 +21,7 @@ public class Main {
 //            }
 //        }
 
-        clientes.removeIf(cliente -> cliente.getId() <= 17); //Forma mais simples: Programação funcional
+        clientes.removeIf(cliente -> cliente.getIdade() <= 17); //Forma mais simples: Programação funcional
         for (Cliente clie : clientes) {
             System.out.println(clie);
         }
