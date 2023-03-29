@@ -1,7 +1,7 @@
 package dominio;
 
 public class Car {
-    private String name = "Audi";
+    private String name = "BMW";
     private String color;
     private int year;
 
